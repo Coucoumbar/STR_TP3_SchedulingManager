@@ -55,6 +55,8 @@ private:
     vector<Device*> relatedDevices;
     vector<int> dependsOn;
 
+    Machine(int id, const string& name, vector<Device*>& relatedDevices, vector<int>& dependsOn);
+
 public:
     Machine(int id, const string& name);
 
