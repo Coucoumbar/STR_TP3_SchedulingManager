@@ -123,7 +123,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="SchedulingManager.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\balanced\devices.json" />
+    <None Include="assets\balanced\machines.json" />
+    <None Include="assets\balanced\teams.json" />
+    <None Include="assets\big\devices.json" />
+    <None Include="assets\big\machines.json" />
+    <None Include="assets\big\teams.json" />
+    <None Include="assets\errors\devices.json" />
+    <None Include="assets\errors\machines.json" />
+    <None Include="assets\errors\teams.json" />
+    <None Include="assets\small\devices.json" />
+    <None Include="assets\small\machines.json" />
+    <None Include="assets\small\teams.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="include\json.hpp" />
+    <ClInclude Include="Machine.h" />
+    <ClInclude Include="Scheduler.h" />
+    <ClInclude Include="Team.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

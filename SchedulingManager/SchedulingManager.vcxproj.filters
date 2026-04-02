@@ -13,10 +13,83 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{44e83b11-142e-4fea-a5fb-962f5c2acece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Balanced">
+      <UniqueIdentifier>{d0c30489-bba3-490c-a341-b46aebc51508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Big">
+      <UniqueIdentifier>{cf9e30cb-7fce-46d9-b596-90db4da784a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Errors">
+      <UniqueIdentifier>{0cd1c67f-9b49-4b09-94ba-7d10b62078e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Small">
+      <UniqueIdentifier>{e4014d4a-058b-4dd9-8049-222fc665c75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{dd54e511-2cb2-440b-8a34-61075ed8474c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SchedulingManager.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\balanced\machines.json">
+      <Filter>Assets\Balanced</Filter>
+    </None>
+    <None Include="assets\balanced\teams.json">
+      <Filter>Assets\Balanced</Filter>
+    </None>
+    <None Include="assets\balanced\devices.json">
+      <Filter>Assets\Balanced</Filter>
+    </None>
+    <None Include="assets\big\machines.json">
+      <Filter>Assets\Big</Filter>
+    </None>
+    <None Include="assets\big\teams.json">
+      <Filter>Assets\Big</Filter>
+    </None>
+    <None Include="assets\big\devices.json">
+      <Filter>Assets\Big</Filter>
+    </None>
+    <None Include="assets\errors\machines.json">
+      <Filter>Assets\Errors</Filter>
+    </None>
+    <None Include="assets\errors\teams.json">
+      <Filter>Assets\Errors</Filter>
+    </None>
+    <None Include="assets\errors\devices.json">
+      <Filter>Assets\Errors</Filter>
+    </None>
+    <None Include="assets\small\machines.json">
+      <Filter>Assets\Small</Filter>
+    </None>
+    <None Include="assets\small\teams.json">
+      <Filter>Assets\Small</Filter>
+    </None>
+    <None Include="assets\small\devices.json">
+      <Filter>Assets\Small</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\json.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
