@@ -153,6 +153,9 @@ private:
     //      de chaque équipe, résultats par machine...)
     //    - Stocker le makespan
     // ════════════════════════════════════════════════════════════
+    unordered_map<int, Device*> devices;
+    unordered_map<int, Machine*> machines;
+    vector<Team*> teams;
 
 public:
     Scheduler(const unordered_map<int, Device*>& devices,

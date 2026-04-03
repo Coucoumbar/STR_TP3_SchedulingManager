@@ -30,8 +30,8 @@ int main() {
     const auto machines = Machine::BuildMachinesFromJsonFile(ASSETS_PATH("machines.json"), devices);
     const auto teams    = Team::BuildTeamsFromJsonFile(ASSETS_PATH("teams.json"));
 
-    //// --- Construction du Scheduler ---
-    //Scheduler scheduler(devices, machines, teams);
+    // --- Construction du Scheduler ---
+    Scheduler scheduler(devices, machines, teams);
 
     //// --- Pré-scheduling : infos sur les données ---
     //scheduler.displayNotConnectedDevices();
